@@ -1,0 +1,50 @@
+/* CSS Document */
+*{	
+	margin:0px;
+	padding:0px;
+}
+.wrapper{
+	
+	width:960px;
+	height:800px;
+	background:#F0F0F0;
+	margin: auto;
+}
+.image{
+	border:2px solid #CCC;
+	margin: 30px 167px;
+	width: 600px;
+	height: 300px;
+}
+#next{
+	position:absolute;
+	top: 180px;
+    left: 924px;
+}
+#prev{
+	position:absolute;
+	top: 180px;
+    right: 944px
+}
+ul{
+	list-style-type:none;
+	position:absolute;
+	bottom: 275px;
+	left: 620px;
+}
+li{
+	display:inline;
+	background:rgba(144, 138, 138, 0.35);
+	padding:5px;
+	border-radius:3px;
+	font-weight:bolder;
+}
+ul li.active{
+	background:rgba(199, 188, 188, 0.48);
+	color:#FFF;
+}
+a{
+	text-decoration: none;
+    color: rgba(144, 135, 135, 0.48);
+    font-size: 19px;
+}

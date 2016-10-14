@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+li{
+	list-style:none;
+}
+p {
+	font: 14px/18px arial,sans-serif;
+	color:#000; 
+	
+}
+input,th,td, button, option, textarea, label, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px arial,sans-serif;
+	   
+}
+th {
+	 font: 22px/18px arial,sans-serif; 
+	 font-weight:bold;
+}
+.wrapper_total{
+	width: 100%;
+    height: auto;
+    margin: auto;
+}
+.wrapper_main{
+	width: 90%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px 1px 20px #989393;	
+}
+.header{
+	width: 100%;
+	height: 150px;	
+	background:#fff;
+}
+
+.menu{
+	width: 100%;
+	height:60px;	
+	background:#FFF;
+	margin-bottom: 5px;
+	display:block;
+}
+.menu_trai{
+	width: 60%;
+    height: 60px;
+    float: left;
+    background: #06840B;
+    margin-bottom: 5px;
+    position: relative;
+}
+.menu_trai ul{
+	list-style-type:none;
+	text-align:center;	
+}
+.menu_trai>ul>li{
+	float: left;
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+   padding: 18px;
+}
+.menu_trai>ul>li:first-child{
+	margin-left:10px;
+	
+}
+.menu_trai>ul>li:hover ul{
+	display:block;
+}
+.menu_trai ul{
+	list-style-type:none;
+	cursor:pointer;
+}
+.menu_trai {
+	cursor:pointer;
+}
+.menu_trai>ul>li>ul{
+	top: 60px;
+    width: 200px;
+    left: 0px;
+    background: rgba(97, 94, 94, 0.49);
+    display: none;
+    position: absolute;
+}
+.menu_trai ul ul a li{
+	text-decoration:none;
+}
+.menu_trai>ul>li>ul>li{
+	width: 200px;
+    height: 35px;
+    text-align: left;
+    padding: 7px;
+    border-bottom: 1px solid #FFF;
+}
+
+
+.menu_trai ul li:last-child{		
+	
+	padding-left: 10px;
+}
+.menu_trai ul li:hover{	
+	color: #fff;
+    border-bottom: 4px solid #FFFFFF;
+    background: rgba(33, 32, 32, 0.47);
+	
+}
+.menu_trai ul>li>ul>li>a{
+	padding-left: 10px;
+}
+.menu_trai ul li a:hover{	
+	color:#fff;
+	text-decoration:none;
+}
+.menu_trai-right ul{
+	list-style-type:none;
+	
+}
+/* ----------- menu trái ----------*/
+
+/* ----------- menu phải ----------*/
+.menu_phai{
+	width: 40%;
+    height: 60px;
+    float: left;
+    background:#06840B;
+    margin-bottom: 5px;
+    position: relative;
+    display: block;
+}
+.search_box{
+	width:200px;
+	
+}
+.col-lg-6{
+	width: 416px;
+    padding: 10px 0;
+}
+.btn-default{
+	color: #FFF;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 34px;
+    width: 42px;
+    background: rgb(167, 9, 9);
+    border: solid 0px;
+}
+
+.content{
+	width:100%;
+	height:auto;
+	margin-bottom:5px;
+	
+}
+.left{	
+	width:250px;
+	min-height:800px;	
+	float:left;
+	margin-top: -15px;
+}
+.right{
+	width: 954px;
+    margin-left: 10px;
+    height: auto;
+    float: left;
+	margin-top:5px;
+}
+/*------------------------------ class right tin tức ------------------------- */
+.quangcao_trai_tren{
+	width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    background: #fff;
+}
+.sanphamxemnhieu{
+	margin-top:10px;
+	width:250px;
+	height:auto;
+	background:#999;
+}
+.spxemnhieu{
+	width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    background: #fff;
+}
+
+.spxemnhieu p{
+	color: #FEFEFE;
+    text-align: center;
+    background: #CA0A0A;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.spbanchaynhat ul{
+	width: 100%;
+	height:auto;
+	list-style-type:none;
+}
+.spbanchaynhat ul li{
+	margin:10px;
+	margin-left:10px;
+}
+.spbanchaynhat a{
+	text-decoration:none;
+	color:#000;
+}
+.spbanchaynhat a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	margin-top:20px;
+	line-height:250px;
+	width:100%;
+	height:250px;	
+	background:rgb(0, 18, 41);
+	color:#FFF;
+}
+.danhsachsanpham i{
+	float:left;
+	padding-left:10px;
+}
+.danhsachsanpham ul i{
+	float:left;
+	padding-right:10px;
+	color:#B4B4B4;
+	font-size:18px;
+}
+.danhsachsanpham h3 {
+    text-align: center;
+    background: #CA0A0A;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.danhsachsanpham ul{
+	width: 100%;
+    height: auto;
+    list-style-type: none;
+    background: #E8E8E8;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+.danhsachsanpham ul li{
+	padding: 10px 0px 10px 20px;
+}
+.danhsachsanpham ul li:hover{
+	background: rgb(185, 185, 185);	
+}
+.danhsachsanpham a{	
+	text-decoration:none;
+	color:#000;	
+}
+
+
+/*---------------------------- Chi tiết loại sản phẩm -------------------------------*/
+.sanphamall ul{
+	list-style-type:none;
+	width: 100%;
+}
+.sanphamall ul li{
+	width: 191px;
+    height: 320px;
+    text-align: center;
+    margin-top: -1px;
+    margin-left: -1px;
+    float: left;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 10px;
+}
+.sanphamall ul li a{
+	text-decoration:none;
+}
+/*------------------------ Kết thúc Chi tiết loại sản phẩm ------------------------*/
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+	background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 75px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+ 
+
+.chitiet{
+	width: 600px;
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFF;
+}
+.sanphamall img {
+	height:170px;
+}
+.chitiet form table th{
+	text-align:center;
+}
+
+.loaisp{
+	border: solid 1px #999999;
+    background: #FFF;
+    border-color: #F9EDED;
+    border-radius: 8px;
+}
+.loaisp p{
+	color: #3498DB;
+    text-align: left;
+    background: #FFF;
+	padding: 15px;
+    font-size: 13px;
+    border-bottom: solid 1px #3498DB;    
+    border-left: solid 10px #3498DB;
+}
+#chitiet{
+	color: #3498DB;
+    text-align: center;
+    background: #FFF;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: solid 1px #3498DB;   
+    border-bottom: solid 1px #3498DB;
+	margin-bottom: 10px;
+	width: 955px;
+}
+.loaisp li{
+	
+}
+#form_login{
+	width:250px;
+}
+#login {
+	background: #03F;
+	color:#FFF;
+	display:none;
+	width: 250px;
+	height:600px;
+}
+.video{
+	margin-top:10px;
+}
+.fb-comments{
+	margin-top: 140px;
+	
+}
+/* --------------- định dạng slide show -----------*/
+slide_picture{
+	height:280px;
+	margin-left:5px;
+	width:580px;
+	background:#666;
+}
+/*- style các phần tử trong class slideshow con của class slide_picture ----*/
+#next{
+	position: absolute;
+    top: 390px;
+    right: 74px;
+    display: block;
+    background: rgba(0, 0, 0, 0.24);
+}
+#prev{
+	position: absolute;
+    top: 390px;   
+	background: rgba(0, 0, 0, 0.24);
+	left: 333px;
+	display:block;
+}
+
+.slideshow>img:hover #prev{
+	display:block;	
+}
+.slideshow ul{
+	list-style-type: none;
+    position: absolute;
+    bottom: 154px;
+    left: 753px;
+    display: block;
+}
+.slideshow>ul>li{
+	display:inline;
+	background:rgba(144, 138, 138, 0.35);
+	padding:5px;
+	border-radius:3px;
+	font-weight:bolder;
+}
+.slideshow>ul>li.active{
+	background:rgba(199, 188, 188, 0.48);
+	color:#FFF;
+}
+.slideshow a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding: 2px 15px 2px 15px;
+	
+}
+.image{
+	width: 955px;
+    height: 281px;
+    margin-bottom: 10px;    
+}
+
+.sanphamcungloai{
+	width:600px;
+	height:300px;	
+	display:block;
+	margin-top:150px;
+	margin-bottom:10px;
+	background: #fff;
+}
+/*---------------------------- button MUA -------------------------------*/
+.btn_mua {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #288ad6;
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #288ad6;
+    border-radius: 4px;
+}
+.btn_mua:hover {
+    background: #288ad6;
+    color: #fff;
+	cursor: pointer;
+}
+/*---------------------------- kết thúc button MUA -------------------------------*/
+
+/*---------------------------- Hiển thị sản phẩm Laptop ------------------------*/
+.hienthisp_laptop{
+	width: 955px;
+    margin-top: 668px;
+    background: #FFFFFF;
+    height: 819px;
+}
+.btn_hientatcasp{
+	display: block;
+    overflow: hidden;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #288ad6;
+    text-align: center;
+    width: 250px;
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #288ad6;
+    border-radius: 4px;
+	margin-top:5px;
+}
+.btn_hientatcasp:hover {
+    background: #288ad6;
+    color: #fff;
+	cursor: pointer;
+}
+/*------------- kết thúc Hiển thị sản phẩm Laptop ------------*/
+
+/*------------- style Login form ------------*/
+.login{
+	width: 300px;
+    height: 145px;
+    background: #FFF;
+    margin:0;
+	padding:0;
+}
+.lab_login{
+	float: right;
+    padding: 21px;
+    background: #06840B;
+	cursor:pointer;
+	color: #FFF;
+}
+.lab_login:hover{
+	color:#000;
+}
+/* -------- Giỏ hàng ----------------*/
+.show_cart{
+	width: 600px;
+    min-height: auto;
+    background: #1268B1;
+    padding: 5px;
+}
+.tieude_header{
+	width:100%;
+	height:38px;
+	background:#1268B1;
+}
+.tieude_giohang{
+	width:300px;
+	height:38px;
+	background:#1268B1;
+	float:left;
+}
+.tieude_giohang p {
+	text-align:center;
+	margin-top: 7px;
+	color: #fff;
+}
+.lienhe_icon_header{
+	width:300px;
+	background:#1268B1;
+	float:right;
+}
+.lienhe_icon_header p i{
+	
+	font-size:18px;
+	line-height:20px;
+	margin-top: 8px;
+}
+.logo_header{
+	float: left;
+    width: 182px;
+    height: 92px;
+    margin-left: 91px;
+    margin-top: 20px;
+}
+.tiemkiem{
+	float: right;
+    width: 38%;
+    height: 62px;
+    background: #fff;
+    margin-right: 358px;
+   
+}
+.giaohang{
+	margin-top:20px;
+	float: right;
+    width: 50%;
+    height: 60px;
+    background: #FFF;
+    margin-right: 230px;
+}
+.sanphammoinhat{
+	width: 955px;
+	height:auto;
+	background:#999;
+}
